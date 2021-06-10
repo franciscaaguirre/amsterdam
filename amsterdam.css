@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+*::before
+*::after {
+    box-sizing: inherit;
+}
+
+.wrapper__logo {
+    float: left;
+    height: 85px;
+
+}
+
+.navbar {
+    margin-top: 0px;
+    list-style: none;
+    background-color: rgb(34, 34, 34);
+    padding: 0px;
+    overflow: auto;
+    margin-bottom: 0;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color:#EAEAEA;
+    display: block;
+    padding: 30px 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.navbar li a:hover {
+    background-color: rgb(9, 9, 9);
+}
+
+.img-header {
+    width:100%
+}
+
+.nav-af .nav-at .nav-ap{
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-af:hover {
+    color: rgb(165,3,8);
+}
+
+.nav-at:hover {
+    color: rgb(165,3,8);
+}
+
+.nav-ap:hover {
+    color: rgb(165,3,8);
+}
+
+.socialnav ul li a {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    font-weight: 100;
+    font-size: 45px;
+    padding: 5px 8px;
+}
+
+.nav-ul{
+    list-style: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-left: 15px;
+    background-color: rgba(9, 9, 9, 50%);
+}
+
+.nav-ul li a{
+ color: silver;
+}
+
+/* .img {
+    display: flex;
+    flex: 1 0 100%;
+}
+
+.img-header {
+    width: 100%;
+} */
+
+.quehacer {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-areas: 'quehacer__museos' 'quehacer__visitas' 'quehacer__info';
+    padding: 30px;
+    margin-left: 20px;
+    justify-content:space-around
+}
+
+.quehacer__museos,.quehacer__visitas,.quehacer__info{
+    padding: 0 30px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    box-shadow: 8px 0px 16px -2px rgba(68, 68, 68, 0.3);
+    font-size: small;
+}
+
+.quehacer a{
+    font-size: 15pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(9, 9, 9);
+    padding: 20px;
+}
+
+a:hover {
+    color: rgb(165,3,8);
+}
+
+.quehacer span {
+    width: 200px;
+}
+
+.museos__img-quehacer, .visitas__img-quehacer, .info__img-quehacer {
+    height: 200px;
+    width: 200px;
+}
+
+.quehacer p {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: start;
+    font-size: 11pt;
+}
+
+.museos {
+    background: rgb(165,3,8);
+    position: relative;
+    left: 300px;
+    width: 700px;
+    color: white;
+    
+}
+
+.museos h1 {
+    font-size: pt;
+}
+
+.museos h1:after {
+    display: grid;
+    content: '';
+    height: 6px;
+    background: white;
+    width: 400px;
+}
+
+.museos img {
+    width: 700px;
+    margin: 0;
+}
+
+.museos div {
+    padding: 30px;
+}
+
+
+
+
+
+
